@@ -36,29 +36,37 @@
 
 # print(string[::-1])
 
-first = input("Enter fisrt number : ")
-second = input("Enter second number : ")
-name = "MINTU"
-age = 22
+# first = input("Enter fisrt number : ")
+# second = input("Enter second number : ")
+# name = "MINTU"
+# age = 22
 
-string = "My" + "name" + "is" + name
+# string = "My" + "name" + "is" + name
 
-print("My name is {} and my age is {}".format(name,age))
+# print("My name is {} and my age is {}".format(name,age))
 
-print(len(first))
-print("First number is {}".format(first)) #python 3
-print(f"First number is {first}") #pyhton 3.6
-print(f"Second number is {second}")
-print(len(second))
+# print(len(first))
+# print(len(second))
 
-if int(first) == int(second):
-    print("matched")
-elif int(first) < int(second):
-    print("first is less than second")
-elif int(first) > int(second):
-    print("first is greater than second")
-else:
-    print("not matched")
+# print("First number is {}".format(first)) #python 3
+# print(f"First number is {first}") #pyhton 3.6
+# print(f"Second number is {second}")
+
+# if int(first) == int(second):
+#     print("matched")
+# elif int(first) < int(second):
+#     print("first is less than second")
+# elif int(first) > int(second):
+#     print("first is greater than second")
+# else:
+#     print("not matched")
+
+# define function
+
+def add_two_numbers(num1,num2):
+    return num1 + num2
+
+print(add_two_numbers(5, 5))
 
 
 
