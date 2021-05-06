@@ -1,6 +1,17 @@
 #Dictionary Comprehension
 
-#output = {1:1, 2:4, 3:9}
+#output = {1: 1, 2: 4, 3: 9}
+        # {1: 1, 2: 4, 3: 9}
+        # 1:odd
+        # 2:even
+        # 3:odd
+        # 4:even
+        # 5:odd
+        # 6:even
+        # 7:odd
+        # 8:even
+        # 9:odd
+        # 10:even
 
 #Normal Method
 
